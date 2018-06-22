@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8B4410720D9F1DD0036DE7E /* safetyLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = E8B4410620D9F1DD0036DE7E /* safetyLogo.png */; };
+		E8B4410920DA486D0036DE7E /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = E8B4410820DA486D0036DE7E /* delete.png */; };
+		E8B4410B20DA63360036DE7E /* upper_low.png in Resources */ = {isa = PBXBuildFile; fileRef = E8B4410A20DA63350036DE7E /* upper_low.png */; };
+		E8B4410D20DA666D0036DE7E /* upper_up.png in Resources */ = {isa = PBXBuildFile; fileRef = E8B4410C20DA666D0036DE7E /* upper_up.png */; };
+		E8B4411020DB81440036DE7E /* LRSafetyKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B4410F20DB81440036DE7E /* LRSafetyKeyboard.m */; };
+		E8B4414E20DCA7E60036DE7E /* LRSafetyKeyboard.gif in Resources */ = {isa = PBXBuildFile; fileRef = E8B4414D20DCA7E60036DE7E /* LRSafetyKeyboard.gif */; };
+		E8CB577420D9DD0E00EB1652 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CB577320D9DD0E00EB1652 /* AppDelegate.m */; };
+		E8CB577720D9DD0E00EB1652 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CB577620D9DD0E00EB1652 /* ViewController.m */; };
+		E8CB577A20D9DD0E00EB1652 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8CB577820D9DD0E00EB1652 /* Main.storyboard */; };
+		E8CB577C20D9DD0F00EB1652 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8CB577B20D9DD0F00EB1652 /* Assets.xcassets */; };
+		E8CB577F20D9DD0F00EB1652 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8CB577D20D9DD0F00EB1652 /* LaunchScreen.storyboard */; };
+		E8CB578220D9DD0F00EB1652 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CB578120D9DD0F00EB1652 /* main.m */; };
+		E8CB578C20D9DD0F00EB1652 /* LRSafetyKeyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CB578B20D9DD0F00EB1652 /* LRSafetyKeyboardTests.m */; };
+		E8CB579720D9DD0F00EB1652 /* LRSafetyKeyboardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CB579620D9DD0F00EB1652 /* LRSafetyKeyboardUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E8CB578820D9DD0F00EB1652 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8CB576720D9DD0E00EB1652 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8CB576E20D9DD0E00EB1652;
+			remoteInfo = LRSafetyKeyboard;
+		};
+		E8CB579320D9DD0F00EB1652 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8CB576720D9DD0E00EB1652 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8CB576E20D9DD0E00EB1652;
+			remoteInfo = LRSafetyKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E8B4410620D9F1DD0036DE7E /* safetyLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = safetyLogo.png; sourceTree = "<group>"; };
+		E8B4410820DA486D0036DE7E /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
+		E8B4410A20DA63350036DE7E /* upper_low.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upper_low.png; sourceTree = "<group>"; };
+		E8B4410C20DA666D0036DE7E /* upper_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upper_up.png; sourceTree = "<group>"; };
+		E8B4410E20DB81440036DE7E /* LRSafetyKeyboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRSafetyKeyboard.h; sourceTree = "<group>"; };
+		E8B4410F20DB81440036DE7E /* LRSafetyKeyboard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRSafetyKeyboard.m; sourceTree = "<group>"; };
+		E8B4414D20DCA7E60036DE7E /* LRSafetyKeyboard.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = LRSafetyKeyboard.gif; sourceTree = "<group>"; };
+		E8CB576F20D9DD0E00EB1652 /* LRSafetyKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LRSafetyKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8CB577220D9DD0E00EB1652 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E8CB577320D9DD0E00EB1652 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E8CB577520D9DD0E00EB1652 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E8CB577620D9DD0E00EB1652 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E8CB577920D9DD0E00EB1652 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E8CB577B20D9DD0F00EB1652 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8CB577E20D9DD0F00EB1652 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E8CB578020D9DD0F00EB1652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8CB578120D9DD0F00EB1652 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E8CB578720D9DD0F00EB1652 /* LRSafetyKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LRSafetyKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8CB578B20D9DD0F00EB1652 /* LRSafetyKeyboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRSafetyKeyboardTests.m; sourceTree = "<group>"; };
+		E8CB578D20D9DD0F00EB1652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8CB579220D9DD0F00EB1652 /* LRSafetyKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LRSafetyKeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8CB579620D9DD0F00EB1652 /* LRSafetyKeyboardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRSafetyKeyboardUITests.m; sourceTree = "<group>"; };
+		E8CB579820D9DD0F00EB1652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8CB576C20D9DD0E00EB1652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8CB578420D9DD0F00EB1652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8CB578F20D9DD0F00EB1652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8CB576620D9DD0E00EB1652 = {
+			isa = PBXGroup;
+			children = (
+				E8CB577120D9DD0E00EB1652 /* LRSafetyKeyboard */,
+				E8CB578A20D9DD0F00EB1652 /* LRSafetyKeyboardTests */,
+				E8CB579520D9DD0F00EB1652 /* LRSafetyKeyboardUITests */,
+				E8CB577020D9DD0E00EB1652 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8CB577020D9DD0E00EB1652 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8CB576F20D9DD0E00EB1652 /* LRSafetyKeyboard.app */,
+				E8CB578720D9DD0F00EB1652 /* LRSafetyKeyboardTests.xctest */,
+				E8CB579220D9DD0F00EB1652 /* LRSafetyKeyboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8CB577120D9DD0E00EB1652 /* LRSafetyKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				E8B4414D20DCA7E60036DE7E /* LRSafetyKeyboard.gif */,
+				E8CB57A720D9DEF700EB1652 /* LRSafetyKeyboard */,
+				E8CB577220D9DD0E00EB1652 /* AppDelegate.h */,
+				E8CB577320D9DD0E00EB1652 /* AppDelegate.m */,
+				E8CB577520D9DD0E00EB1652 /* ViewController.h */,
+				E8CB577620D9DD0E00EB1652 /* ViewController.m */,
+				E8CB577820D9DD0E00EB1652 /* Main.storyboard */,
+				E8CB577B20D9DD0F00EB1652 /* Assets.xcassets */,
+				E8CB577D20D9DD0F00EB1652 /* LaunchScreen.storyboard */,
+				E8CB578020D9DD0F00EB1652 /* Info.plist */,
+				E8CB578120D9DD0F00EB1652 /* main.m */,
+			);
+			path = LRSafetyKeyboard;
+			sourceTree = "<group>";
+		};
+		E8CB578A20D9DD0F00EB1652 /* LRSafetyKeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				E8CB578B20D9DD0F00EB1652 /* LRSafetyKeyboardTests.m */,
+				E8CB578D20D9DD0F00EB1652 /* Info.plist */,
+			);
+			path = LRSafetyKeyboardTests;
+			sourceTree = "<group>";
+		};
+		E8CB579520D9DD0F00EB1652 /* LRSafetyKeyboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E8CB579620D9DD0F00EB1652 /* LRSafetyKeyboardUITests.m */,
+				E8CB579820D9DD0F00EB1652 /* Info.plist */,
+			);
+			path = LRSafetyKeyboardUITests;
+			sourceTree = "<group>";
+		};
+		E8CB57A720D9DEF700EB1652 /* LRSafetyKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				E8B4410C20DA666D0036DE7E /* upper_up.png */,
+				E8B4410A20DA63350036DE7E /* upper_low.png */,
+				E8B4410820DA486D0036DE7E /* delete.png */,
+				E8B4410620D9F1DD0036DE7E /* safetyLogo.png */,
+				E8B4410E20DB81440036DE7E /* LRSafetyKeyboard.h */,
+				E8B4410F20DB81440036DE7E /* LRSafetyKeyboard.m */,
+			);
+			path = LRSafetyKeyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8CB576E20D9DD0E00EB1652 /* LRSafetyKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8CB579B20D9DD0F00EB1652 /* Build configuration list for PBXNativeTarget "LRSafetyKeyboard" */;
+			buildPhases = (
+				E8CB576B20D9DD0E00EB1652 /* Sources */,
+				E8CB576C20D9DD0E00EB1652 /* Frameworks */,
+				E8CB576D20D9DD0E00EB1652 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LRSafetyKeyboard;
+			productName = LRSafetyKeyboard;
+			productReference = E8CB576F20D9DD0E00EB1652 /* LRSafetyKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E8CB578620D9DD0F00EB1652 /* LRSafetyKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8CB579E20D9DD0F00EB1652 /* Build configuration list for PBXNativeTarget "LRSafetyKeyboardTests" */;
+			buildPhases = (
+				E8CB578320D9DD0F00EB1652 /* Sources */,
+				E8CB578420D9DD0F00EB1652 /* Frameworks */,
+				E8CB578520D9DD0F00EB1652 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8CB578920D9DD0F00EB1652 /* PBXTargetDependency */,
+			);
+			name = LRSafetyKeyboardTests;
+			productName = LRSafetyKeyboardTests;
+			productReference = E8CB578720D9DD0F00EB1652 /* LRSafetyKeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E8CB579120D9DD0F00EB1652 /* LRSafetyKeyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8CB57A120D9DD0F00EB1652 /* Build configuration list for PBXNativeTarget "LRSafetyKeyboardUITests" */;
+			buildPhases = (
+				E8CB578E20D9DD0F00EB1652 /* Sources */,
+				E8CB578F20D9DD0F00EB1652 /* Frameworks */,
+				E8CB579020D9DD0F00EB1652 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8CB579420D9DD0F00EB1652 /* PBXTargetDependency */,
+			);
+			name = LRSafetyKeyboardUITests;
+			productName = LRSafetyKeyboardUITests;
+			productReference = E8CB579220D9DD0F00EB1652 /* LRSafetyKeyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8CB576720D9DD0E00EB1652 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = luris;
+				TargetAttributes = {
+					E8CB576E20D9DD0E00EB1652 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					E8CB578620D9DD0F00EB1652 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = E8CB576E20D9DD0E00EB1652;
+					};
+					E8CB579120D9DD0F00EB1652 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = E8CB576E20D9DD0E00EB1652;
+					};
+				};
+			};
+			buildConfigurationList = E8CB576A20D9DD0E00EB1652 /* Build configuration list for PBXProject "LRSafetyKeyboard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8CB576620D9DD0E00EB1652;
+			productRefGroup = E8CB577020D9DD0E00EB1652 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8CB576E20D9DD0E00EB1652 /* LRSafetyKeyboard */,
+				E8CB578620D9DD0F00EB1652 /* LRSafetyKeyboardTests */,
+				E8CB579120D9DD0F00EB1652 /* LRSafetyKeyboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8CB576D20D9DD0E00EB1652 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8CB577F20D9DD0F00EB1652 /* LaunchScreen.storyboard in Resources */,
+				E8CB577C20D9DD0F00EB1652 /* Assets.xcassets in Resources */,
+				E8B4410720D9F1DD0036DE7E /* safetyLogo.png in Resources */,
+				E8B4414E20DCA7E60036DE7E /* LRSafetyKeyboard.gif in Resources */,
+				E8B4410920DA486D0036DE7E /* delete.png in Resources */,
+				E8B4410B20DA63360036DE7E /* upper_low.png in Resources */,
+				E8B4410D20DA666D0036DE7E /* upper_up.png in Resources */,
+				E8CB577A20D9DD0E00EB1652 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8CB578520D9DD0F00EB1652 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8CB579020D9DD0F00EB1652 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8CB576B20D9DD0E00EB1652 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8CB577720D9DD0E00EB1652 /* ViewController.m in Sources */,
+				E8CB578220D9DD0F00EB1652 /* main.m in Sources */,
+				E8CB577420D9DD0E00EB1652 /* AppDelegate.m in Sources */,
+				E8B4411020DB81440036DE7E /* LRSafetyKeyboard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8CB578320D9DD0F00EB1652 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8CB578C20D9DD0F00EB1652 /* LRSafetyKeyboardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8CB578E20D9DD0F00EB1652 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8CB579720D9DD0F00EB1652 /* LRSafetyKeyboardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8CB578920D9DD0F00EB1652 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8CB576E20D9DD0E00EB1652 /* LRSafetyKeyboard */;
+			targetProxy = E8CB578820D9DD0F00EB1652 /* PBXContainerItemProxy */;
+		};
+		E8CB579420D9DD0F00EB1652 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8CB576E20D9DD0E00EB1652 /* LRSafetyKeyboard */;
+			targetProxy = E8CB579320D9DD0F00EB1652 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E8CB577820D9DD0E00EB1652 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8CB577920D9DD0E00EB1652 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E8CB577D20D9DD0F00EB1652 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8CB577E20D9DD0F00EB1652 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8CB579920D9DD0F00EB1652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E8CB579A20D9DD0F00EB1652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8CB579C20D9DD0F00EB1652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Q5G7EZZR8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LRSafetyKeyboard",
+				);
+				INFOPLIST_FILE = LRSafetyKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chamc.hrcfcdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8CB579D20D9DD0F00EB1652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Q5G7EZZR8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LRSafetyKeyboard",
+				);
+				INFOPLIST_FILE = LRSafetyKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chamc.hrcfcdemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E8CB579F20D9DD0F00EB1652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Q5G7EZZR8;
+				INFOPLIST_FILE = LRSafetyKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chamc.LRSafetyKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LRSafetyKeyboard.app/LRSafetyKeyboard";
+			};
+			name = Debug;
+		};
+		E8CB57A020D9DD0F00EB1652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Q5G7EZZR8;
+				INFOPLIST_FILE = LRSafetyKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chamc.LRSafetyKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LRSafetyKeyboard.app/LRSafetyKeyboard";
+			};
+			name = Release;
+		};
+		E8CB57A220D9DD0F00EB1652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Q5G7EZZR8;
+				INFOPLIST_FILE = LRSafetyKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chamc.LRSafetyKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LRSafetyKeyboard;
+			};
+			name = Debug;
+		};
+		E8CB57A320D9DD0F00EB1652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Q5G7EZZR8;
+				INFOPLIST_FILE = LRSafetyKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chamc.LRSafetyKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LRSafetyKeyboard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8CB576A20D9DD0E00EB1652 /* Build configuration list for PBXProject "LRSafetyKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8CB579920D9DD0F00EB1652 /* Debug */,
+				E8CB579A20D9DD0F00EB1652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8CB579B20D9DD0F00EB1652 /* Build configuration list for PBXNativeTarget "LRSafetyKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8CB579C20D9DD0F00EB1652 /* Debug */,
+				E8CB579D20D9DD0F00EB1652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8CB579E20D9DD0F00EB1652 /* Build configuration list for PBXNativeTarget "LRSafetyKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8CB579F20D9DD0F00EB1652 /* Debug */,
+				E8CB57A020D9DD0F00EB1652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8CB57A120D9DD0F00EB1652 /* Build configuration list for PBXNativeTarget "LRSafetyKeyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8CB57A220D9DD0F00EB1652 /* Debug */,
+				E8CB57A320D9DD0F00EB1652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8CB576720D9DD0E00EB1652 /* Project object */;
+}
