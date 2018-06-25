@@ -2,7 +2,7 @@
 //  LRSafetyKeyboard.h
 //  LRSafetyKeyboard
 //
-//  Created by luris on 2018/6/21.
+//  Created by luris on 2018/6/22.
 //  Copyright © 2018年 luris. All rights reserved.
 //
 
@@ -10,25 +10,21 @@
 
 
 /**
- 字符串Block
+ 输入文字 Block
  
  @param text 字符串
  */
-typedef void(^StringBlock)(NSString *text);
+typedef void(^TextBlock)(NSString *text);
 
 
 /**
  键盘类型
- 
- - LRSafetyKeyboardTypeNormal: 普通的全键盘
- - LRSafetyKeyboardTypeNumberNormal: 普通的数字键盘
- - LRSafetyKeyboardTypeSafetyQWERTY: 安全的全键盘 默认输入内容隐藏
- - LRSafetyKeyboardTypeSafetyNumber: 安全的数字键盘 默认输入内容隐藏
+
+ - LRSafetyKeyboardTypeSafetyQWERTY: 全键盘
+ - LRSafetyKeyboardTypeSafetyNumber: 数字键盘
  */
 typedef NS_ENUM(NSInteger,LRSafetyKeyboardType) {
-    LRSafetyKeyboardTypeNormal          = 0,
-    LRSafetyKeyboardTypeNumberNormal,
-    LRSafetyKeyboardTypeSafetyQWERTY,
+    LRSafetyKeyboardTypeSafetyQWERTY        = 0,
     LRSafetyKeyboardTypeSafetyNumber,
 };
 
@@ -37,9 +33,16 @@ typedef NS_ENUM(NSInteger,LRSafetyKeyboardType) {
 
 
 /**
+ 是否安全输入，安全输入状态下输入框内容会显示为 圆点
+ default is YES.
+ */
+@property(nonatomic, assign) BOOL secureEntry;
+
+
+/**
  初始化键盘
  
- @param view 输入源 仅支持 UITextField/UITextView
+ @param view 添加键盘的view 仅支持 UITextField/UITextView
  @param type 类型
  @return self
  */
@@ -61,7 +64,7 @@ typedef NS_ENUM(NSInteger,LRSafetyKeyboardType) {
  
  @param callback callback
  */
-- (void)secureTextDidEndEditing:(StringBlock)callback;
+- (void)secureTextDidEndEditing:(TextBlock)callback;
 
 
 /**
@@ -69,7 +72,7 @@ typedef NS_ENUM(NSInteger,LRSafetyKeyboardType) {
  
  @param callback callback
  */
-- (void)secureTextDidChange:(StringBlock)callback;
+- (void)secureTextDidChange:(TextBlock)callback;
 
 
 

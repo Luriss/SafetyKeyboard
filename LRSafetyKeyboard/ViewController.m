@@ -25,7 +25,7 @@
     textField.returnKeyType = UIReturnKeyDone;
     [self.view addSubview:textField];
     
-    LRSafetyKeyboard *view = [[LRSafetyKeyboard alloc] initWithInputSource:textField keyboardType:LRSafetyKeyboardTypeNormal];
+    LRSafetyKeyboard *view = [[LRSafetyKeyboard alloc] initWithInputSource:textField keyboardType:LRSafetyKeyboardTypeSafetyNumber];
     textField.inputView = view;
 
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(30, 230, 300, 250)];
